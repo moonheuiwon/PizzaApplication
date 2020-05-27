@@ -13,6 +13,7 @@
         android:gravity="center_vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/storeLogoImg"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@mipmap/ic_launcher"
@@ -20,6 +21,7 @@
             app:civ_border_color="#000000"/>
 
         <TextView
+            android:id="@+id/storeNameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가게 이름 자리"
